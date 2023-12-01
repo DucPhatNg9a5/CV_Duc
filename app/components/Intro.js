@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
 
 export default function Intro(props) {
   return (
@@ -18,21 +19,31 @@ export default function Intro(props) {
         </video>
 
         {/* Sun Image */}
-        <img
+        <Image
           className="absolute w-24 right-1/4 top-1/2 z-10"
           src={"/sun.png"}
           alt="sun-img"
+          width={96}
+          height={96}
         />
 
         <div className="flex flex-col items-center z-10">
           {/* Name Image */}
-          <img className="w-72 pt-32" src={"/name.png"} alt="name-img" />
+          <Image
+            className="w-72 pt-32"
+            src={"/name.png"}
+            alt="name-img"
+            width={288}
+            height={256}
+          />
 
           {/* Mountain Image */}
-          <img
+          <Image
             className="pt-32 w-150"
             src={"/mountain.png"}
             alt="mountain-img"
+            width={512}
+            height={381}
           />
         </div>
       </div>
