@@ -9,7 +9,7 @@ config.autoAddCss = false;
 
 export default function Footer(props) {
   return (
-    <div className="bg-blue-900 py-2 text-center w-full fixed bottom-0">
+    <div className="bg-blue-900 py-2 text-center w-full bottom-0">
       <Link
         href="https://www.linkedin.com/in/ducphatnguyensait/"
         target="_blank"

@@ -6,7 +6,7 @@ export default function Background(props) {
   return (
     <>
       <Navbar />
-      <div className="p-20 flex justify-center bg-white text-black">
+      <div className="p-10 flex justify-center bg-white text-black">
         <div className="px-20">
           <h2 className="text-2xl font-bold text-blue-500">Education</h2>
           <div>
